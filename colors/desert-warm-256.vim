@@ -294,9 +294,9 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     call <SID>X('MatchParen', 'dfffdf', 'grey30')
 
     " syntax highlighting groups
-    call <SID>X('Comment', 'skyblue')
+    call <SID>X('Comment', 'a0a2a3')
     call <SID>X('Constant', 'ffa0a0')
-    call <SID>X('String', 'e0a5da')
+    call <SID>X('String', 'ffa0a0')
     call <SID>X('Identifier', 'palegreen', '', 'none')
     call <SID>X('Statement', 'ffd797', '', 'bold')
     call <SID>X('PreProc', 'indianred')
