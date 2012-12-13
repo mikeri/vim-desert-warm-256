@@ -272,7 +272,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     call <SID>X('Folded', 'orange', 'grey30')
     call <SID>X('FoldColumn', 'tan', 'grey14')
     call <SID>X('IncSearch', 'slategrey', 'khaki')
-    call <SID>X('LineNr', 'grey70', 'grey17')
+    call <SID>X('LineNr', 'grey50', 'grey17')
     call <SID>X('ModeMsg', 'goldenrod')
     call <SID>X('MoreMsg', 'seagreen')
     call <SID>X('NonText', 'lightblue', 'grey14', 'bold')
@@ -294,7 +294,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     call <SID>X('MatchParen', 'dfffdf', 'grey30')
 
     " syntax highlighting groups
-    call <SID>X('Comment', 'a0a2a3')
+    call <SID>X('Comment', 'grey50')
     call <SID>X('Constant', 'ffa0a0')
     call <SID>X('String', 'ffa0a0')
     call <SID>X('Identifier', 'palegreen', '', 'none')
