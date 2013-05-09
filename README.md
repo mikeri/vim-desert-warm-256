@@ -1,6 +1,8 @@
 What's this?
 ============
 
+Note from mikeri: I fixed the cursorline highlight for terminal use.
+
 It's a color scheme for Vim, based on the "desert" color scheme by Hans
 Fugal with a few small tweaks. The tweaks are try to make it looks a bit
 warm and be more friendly for my eyes. Using the code from "desert256" to

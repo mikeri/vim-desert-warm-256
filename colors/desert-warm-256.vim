@@ -268,6 +268,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     "DiffDelete
     "DiffText
     "ErrorMsg
+    call <SID>X('CursorLine', '','grey25','none')
     call <SID>X('VertSplit', 'grey50', 'c2bfa5', 'none')
     call <SID>X('Folded', 'orange', 'grey30')
     call <SID>X('FoldColumn', 'tan', 'grey14')
